@@ -25,7 +25,7 @@
     echo "<br/>O valor de $v1<sup>$v2</sup> é ". pow($v1,$v2);
     echo "<br/>A raiz de  $v1 é ". sqrt($v1);
     echo "<br/>O valor arredondado de  $v2 é ".round($v2); // ceil e floor
-    echo "<br/>A parte inteira de  $v2 é ".intval($v2); // ceil e floor
+    echo "<br/>A parte inteira de  $v2 é ".intval($v2); 
     echo "<br/>O valor de $v1 em moeda é R$ ".number_format($v1,2,",",".");
     
 
