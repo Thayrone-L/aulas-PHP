@@ -11,11 +11,9 @@
     <div>
     <?php
 
-    $n1 = 7;
-    $n2 = 5;
-    $s = $n1+$n2;
-    echo "O resultado é: $s";
-
+   define("x","5");
+   $x=x+10;
+   echo x;
 
     ?>
     </div>
