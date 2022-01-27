@@ -15,7 +15,8 @@
             for($i=0;$i<$tot;$i++){
                 $s=$s+$p[$i];
             }
-            return $s;
+            $r=$s/$tot;
+            return $r;
         }
         
         $res = soma(3,5,4,1,2,3,6,8,1,12,3,5,85,8);
