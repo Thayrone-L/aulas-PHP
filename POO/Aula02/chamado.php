@@ -13,7 +13,9 @@
         }
     
         function finaliza() {
-            $this->finalizado = true;
+            $this->finalizado = true; 
+                   
+                
         }
 
     }
